@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #A2D2DF;
+    height: 100vh;
+    display: flex;
+}
+
+.log-inContainer{
+    background-color: #F6EFBD;
+    width: 500px;
+    margin: auto;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px black;
+}
+
+.log-inInfo{
+    padding: 20px;
+    text-align: center;
+}
+
+.log-inInfo h1{
+    font-family: "Roboto", sans-serif;
+}
+.log-inCredentials{
+    padding: 20px;
+}
+
+.log-inCredentials label{
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.log-inCredentials input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.keep{
+    padding-left: 20px;
+}
+
+.keep label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+}
+
+.signinBtn{
+    text-align: center;
+    padding: 15px;
+}
+
+.signinBtn button{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #82acce;
+    color: white;
+    cursor: pointer;
+}
+
+.signinBtn button:hover{
+    background-color: #22405a;
+}
+
+.createAcct{
+    text-align: center;
+    padding: 15px;
+}
+
+.createAcct button{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #629584;
+}
+
+.createAcct button:hover{
+    background-color: #122c23;
+}
+
+.createAcct button:active{
+    background-color: #000a07;
+}
+
+.createAcct a{
+    text-decoration: none;
+    font-size:20px ;
+    color: white;
+}
